@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="space.rexhub.kbms.bussiness.dao.DocMapper">
+    <select id="getDocPage" resultType="space.rexhub.kbms.bussiness.model.vo.DocVO">
+        SELECT
+            d.id id, d.title title, d.summary summary, u.nick_name owner,
+            d.is_upload isUpload, d.create_time createTime, d.update_time updateTime
+        FROM  tb_doc d LEFT JOIN tb_user u ON d.creator = u.id
+        ${ew.customSqlSegment}
+        ORDER BY d.create_time DESC
+    </select>
+
+    <select id="getDocDetailVoPage" resultType="space.rexhub.kbms.bussiness.model.vo.DocDetailVO">
+        SELECT
+            d.id id, d.title title, d.summary summary, u.nick_name owner,
+            d.content_html contentHtml, d.content_text contentText, d.is_upload isUpload,
+            d.create_time createTime, d.update_time updateTime
+        FROM  tb_doc d LEFT JOIN tb_user u ON d.creator = u.id
+        WHERE d.id = #{id} and deleted = 0
+    </select>
+
+    <select id="search" resultType="space.rexhub.kbms.bussiness.model.vo.DocSearchVO">
+        SELECT d.id+d.proj_id+up.user_id id, d.id docId, d.proj_id projId,
+            up.user_id userId, p.title proj, d.title, d.summary, d.content_text contentText,
+            d.deleted, d.is_upload isUpload, u.nick_name creator, d.create_time createTime
+        FROM tb_doc d
+            JOIN tb_user_proj up ON d.proj_id = up.proj_id
+            JOIN tb_user u ON d.creator = u.id
+            JOIN tb_proj p ON d.proj_id = p.id
+        ${ew.customSqlSegment}
+        ORDER BY d.create_time DESC
+    </select>
+</mapper>

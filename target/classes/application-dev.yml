@@ -1,0 +1,27 @@
+spring:
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/kbms?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+
+server:
+  port: 8081
+  servlet:
+    context-path: /kbms/api
+
+proj:
+  file-dir: /Users/rex/my/Proj/knowledge-base-management-system/kbms-api/src/main/resources/file
+
+jodconverter:
+  local:
+    enabled: true
+    #安装目录
+#    office-home: /Applications/OpenOffice.app/Contents
+    max-tasks-per-process: 10
+    #端口号
+    port-numbers: 8100
+    task-execution-timeout: 300000
+    task-queue-timeout: 86400000
+    office-home: /Applications/LibreOffice.app/Contents

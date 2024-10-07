@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="space.rexhub.kbms.bussiness.dao.ProjMapper">
+
+    <select id="getProjPage" resultType="space.rexhub.kbms.bussiness.model.vo.ProjVO">
+        SELECT
+            p.id id, p.title title, p.description description,
+            t.name tag, p.img img, p.status status, u.nick_name owner,
+            p.create_time createTime, p.update_time updateTime
+        FROM tb_proj p
+            LEFT JOIN tb_user_proj up ON p.id = up.proj_id
+            JOIN tb_user u ON up.user_id = u.id
+            JOIN tb_tag t ON p.tag_id = t.id
+        ${ew.customSqlSegment}
+        ORDER BY p.create_time DESC
+    </select>
+
+    <select id="getProjInfo" resultType="space.rexhub.kbms.bussiness.model.vo.ProjVO">
+        SELECT
+            p.id id, p.title title, p.description description, p.tag_id tagId,
+            t.name tag, p.img img, p.status status, u.nick_name owner,
+            p.create_time createTime, p.update_time updateTime
+        FROM tb_proj p
+                 LEFT JOIN tb_user_proj up ON p.id = up.proj_id
+                 JOIN tb_user u ON up.user_id = u.id
+                 JOIN tb_tag t ON p.tag_id = t.id
+        WHERE p.id = #{id} AND deleted = 0
+    </select>
+
+    <select id="getProjMembers" resultType="space.rexhub.kbms.bussiness.model.vo.ProjMemberVO">
+        SELECT
+            u.id id, u.username username, u.nick_name nickName,
+            IF(up.type = 0, '所有者', '参与者') `type`
+        FROM  tb_user_proj up
+            JOIN tb_user u ON up.user_id = u.id
+        ${ew.customSqlSegment}
+        ORDER BY up.create_time ASC
+    </select>
+
+    <select id="getProjMemberInfo" resultType="space.rexhub.kbms.bussiness.model.vo.ProjMemberVO">
+        SELECT
+            u.id id, u.username username, u.nick_name nickName,
+            IF(up.type = 0, '所有者', '参与者') `type`
+        FROM  tb_user_proj up
+                  JOIN tb_user u ON up.user_id = u.id
+        WHERE up.proj_id = #{projId} AND u.id = #{userId}
+    </select>
+</mapper>

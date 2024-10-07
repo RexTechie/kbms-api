@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="space.rexhub.kbms.bussiness.dao.UserMapper">
+
+    <resultMap id="BaseResultMap" type="space.rexhub.kbms.bussiness.model.entity.UserEntity">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="nickName" column="nick_name" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="loginTime" column="login_time" jdbcType="TIMESTAMP"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+        <result property="creator" column="creator" jdbcType="BIGINT"/>
+        <result property="updater" column="updater" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,username,password, role_id
+        token,login_time,create_time,
+        update_time,creator,updater
+    </sql>
+
+    <select id="getRoleName" resultType="string">
+        SELECT name FROM tb_role WHERE id = #{roleId}
+    </select>
+
+</mapper>

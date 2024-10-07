@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: water-safety-exam-sys-api
+  datasource:
+    # 数据库驱动：
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库连接地址
+#    url: jdbc:mysql://localhost:52001/kbms?serverTimezone=UTC
+    # 数据库用户名&密码：
+    username: "root"
+    password: "P3ZRhekWLLYBHS6W"
+server:
+  port: 52012
+  servlet:
+    context-path: /kbms/api
