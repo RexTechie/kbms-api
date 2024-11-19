@@ -34,8 +34,8 @@ public class MyAuthenticationFilter extends UsernamePasswordAuthenticationFilter
     }
     String username = map.get("username");
     String password = map.get("password");
-    logger.info("username:" + username);
-    logger.info("password:" + password);
+    log.info("username:" + username);
+    log.info("password:" + password);
 
     UsernamePasswordAuthenticationToken authRequest = new UsernamePasswordAuthenticationToken(username, password);
     // 为detail赋值
