@@ -29,11 +29,6 @@ public class ProjForm {
     private String title;
 
     /**
-     * 项目标签
-     */
-    private Long tagId;
-
-    /**
      * 项目图标地址
      */
     private String img;

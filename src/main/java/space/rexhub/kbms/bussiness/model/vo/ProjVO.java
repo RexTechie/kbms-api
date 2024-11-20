@@ -2,7 +2,6 @@ package space.rexhub.kbms.bussiness.model.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import space.rexhub.kbms.bussiness.model.entity.ProjEntity;
 
 import java.util.Date;
 
@@ -27,16 +26,6 @@ public class ProjVO {
      * 项目简介
      */
     private String description;
-
-    /**
-     * 标签
-     */
-    private String tag;
-
-    /**
-     * 标签id
-     */
-    private String tagId;
 
     /**
      * 项目图标地址

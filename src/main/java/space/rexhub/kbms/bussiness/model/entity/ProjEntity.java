@@ -1,7 +1,5 @@
 package space.rexhub.kbms.bussiness.model.entity;
 
-import java.util.Date;
-
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -25,11 +23,6 @@ public class ProjEntity extends BaseEntity {
      * 项目简介
      */
     private String description;
-
-    /**
-     * 标签id
-     */
-    private Long tagId;
 
     /**
      * 项目图标地址
