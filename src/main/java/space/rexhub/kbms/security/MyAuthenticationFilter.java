@@ -16,7 +16,6 @@ import java.util.Map;
 /**
  * Description: 重写登录方法
  *
- * @author Rex
  */
 @Slf4j
 public class MyAuthenticationFilter extends UsernamePasswordAuthenticationFilter {

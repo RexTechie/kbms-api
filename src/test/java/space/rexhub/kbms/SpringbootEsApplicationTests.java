@@ -11,8 +11,6 @@ import space.rexhub.kbms.bussiness.es_dao.EsDocDao;
 /**
  * Description: 测试
  *
- * @author Rex
- * @date 2024-04-20
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

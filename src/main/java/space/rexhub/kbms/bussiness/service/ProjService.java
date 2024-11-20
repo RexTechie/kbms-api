@@ -13,8 +13,6 @@ import space.rexhub.kbms.bussiness.model.vo.ProjVO;
 /**
  * Description: 项目服务类
  *
- * @author Rex
- * @date 2024-03-18
  */
 public interface ProjService extends IService<ProjEntity> {
     /**

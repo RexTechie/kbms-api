@@ -14,7 +14,6 @@ import java.nio.charset.StandardCharsets;
 /**
  * Description: 统一Web响应结果
  *
- * @author Rex
  */
 @Data
 public class Result<T> implements Serializable {

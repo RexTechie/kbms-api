@@ -13,9 +13,6 @@ import java.io.IOException;
 
 /**
  * Description: 登录失败处理器
- *
- * @author Rex
- * @date 2021-11-05 15:30
  */
 @Slf4j
 @Component

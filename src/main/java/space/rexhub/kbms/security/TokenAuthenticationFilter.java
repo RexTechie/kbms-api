@@ -21,8 +21,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Description: token校验机制
- *
- * @author Rex
  */
 public class TokenAuthenticationFilter extends BasicAuthenticationFilter {
 

@@ -13,9 +13,6 @@ import java.io.IOException;
 
 /**
  * Description: 自定义权限访问失败的处理器
- *
- * @author Rex
- * @date 2021-11-05 15:26
  */
 @Slf4j
 @Component

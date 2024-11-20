@@ -8,9 +8,6 @@ import space.rexhub.kbms.bussiness.model.entity.UserProjEntity;
 
 /**
  * Description: 用户项目关联Mapper
- *
- * @author Rex
- * @date 2024-03-18
  */
 public interface UserProjMapper extends BaseMapper<UserProjEntity> {
     /**

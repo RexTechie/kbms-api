@@ -9,8 +9,6 @@ import java.util.List;
 /**
  * Description: 知识点VO
  *
- * @author Rex
- * @date 2023-10-21
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

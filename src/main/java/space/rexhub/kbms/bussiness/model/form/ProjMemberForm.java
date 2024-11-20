@@ -8,8 +8,6 @@ import javax.validation.constraints.NotNull;
 /**
  * Description: 添加项目成员表单
  *
- * @author Rex
- * @date 2024-03-20
  */
 @Data
 public class ProjMemberForm {

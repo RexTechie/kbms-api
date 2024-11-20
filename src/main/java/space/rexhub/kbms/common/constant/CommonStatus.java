@@ -3,8 +3,6 @@ package space.rexhub.kbms.common.constant;
 
 /**
  * 状态码枚举
- * @author Rex
- * @date 2021-06-01 15:15
  */
 public enum CommonStatus {
   /**

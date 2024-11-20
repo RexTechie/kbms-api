@@ -34,8 +34,6 @@ import java.nio.charset.StandardCharsets;
 /**
  * Description: 项目文档api
  *
- * @author Rex
- * @date 2024-03-22
  */
 @RestController
 @RequestMapping("/proj")

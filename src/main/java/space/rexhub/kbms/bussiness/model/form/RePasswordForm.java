@@ -7,8 +7,6 @@ import javax.validation.constraints.NotNull;
 /**
  * Description: 修改密码
  *
- * @author Rex
- * @date 2023-07-11
  */
 @Data
 public class RePasswordForm {

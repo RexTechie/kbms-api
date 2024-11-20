@@ -8,8 +8,6 @@ import space.rexhub.kbms.base.BaseEntity;
 /**
  * Description: 项目文档实体类
  *
- * @author Rex
- * @date 2024-03-22
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

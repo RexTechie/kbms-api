@@ -8,8 +8,6 @@ import java.util.Map;
 
 /**
  * 常量类
- * @author Rex
- * @date 2021-06-01 13:47
  */
 public class Constant {
   public static final String CAPTCHA_KEY = "captcha";

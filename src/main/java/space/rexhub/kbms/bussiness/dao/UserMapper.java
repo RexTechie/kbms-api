@@ -6,7 +6,6 @@ import space.rexhub.kbms.bussiness.model.entity.UserEntity;
 
 /**
  * Description: 用户dao层
- * @author Rex
  */
 public interface UserMapper extends BaseMapper<UserEntity> {
 

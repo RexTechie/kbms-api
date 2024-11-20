@@ -32,8 +32,6 @@ import java.util.stream.Collectors;
 /**
  * Description: 用户服务实现类
  *
- * @author Rex
- * @date 2023-07-03
  */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> implements UserService {

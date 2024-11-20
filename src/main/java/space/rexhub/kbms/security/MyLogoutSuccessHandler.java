@@ -15,9 +15,6 @@ import java.io.IOException;
 
 /**
  * Description: 自定义登出成功处理器
- *
- * @author Rex
- * @date 2021-11-05 15:23
  */
 @Component
 public class MyLogoutSuccessHandler implements LogoutSuccessHandler{

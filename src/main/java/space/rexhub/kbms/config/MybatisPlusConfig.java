@@ -23,7 +23,6 @@ import java.util.stream.Stream;
 
 /**
  * MybatisPlus配置
- * @author Rex
  */
 @Configuration
 @MapperScan(value = {"space.rexhub.kbms.bussiness.dao"})

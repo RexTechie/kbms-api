@@ -11,8 +11,6 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * Description 网络请求配置
- * @author Rex
- * @date 2021-07-03 15:19
  */
 @Configuration
 public class RestTemplateConfig {

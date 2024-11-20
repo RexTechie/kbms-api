@@ -10,8 +10,6 @@ import space.rexhub.kbms.base.BaseEntity;
 /**
  * Description: TODO
  *
- * @author Rex
- * @date 2024-03-18
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

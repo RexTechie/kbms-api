@@ -11,8 +11,6 @@ import javax.validation.constraints.Pattern;
 /**
  * Description: 项目分页表单
  *
- * @author Rex
- * @date 2023-07-04
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

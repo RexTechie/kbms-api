@@ -38,8 +38,6 @@ import java.util.Random;
 /**
  * Description: 项目服务实现类
  *
- * @author Rex
- * @date 2023-07-04
  */
 @Service
 public class ProjServiceImpl extends ServiceImpl<ProjMapper, ProjEntity> implements ProjService {

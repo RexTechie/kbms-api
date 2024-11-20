@@ -17,8 +17,6 @@ import java.util.Map;
 /**
  * Description: 登录成功处理器
  *
- * @author Rex
- * @date 2021-11-05 15:32
  */
 @Slf4j
 @Component

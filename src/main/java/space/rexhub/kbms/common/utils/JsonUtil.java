@@ -10,8 +10,6 @@ import java.util.Map;
 /**
  * Description: json工具类
  *
- * @author Rex
- * @date 2021-11-03 11:15
  */
 public class JsonUtil {
   private static final Gson GSON;

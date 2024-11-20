@@ -9,8 +9,6 @@ import javax.validation.constraints.NotNull;
 /**
  * Description: 全文检索表单
  *
- * @author Rex
- * @date 2024-04-20
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

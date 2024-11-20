@@ -6,8 +6,6 @@ import java.io.Serializable;
 
 /**
  * 自定义通用异常类
- * @author Rex
- * @date 2021-06-01 15:37
  */
 public class CommonException extends RuntimeException implements Serializable {
   private static final long serialVersionUID = 1L;

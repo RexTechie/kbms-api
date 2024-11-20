@@ -15,8 +15,6 @@ import java.util.List;
 /**
  * Description: 用户服务类
  *
- * @author Rex
- * @date 2023-07-03
  */
 public interface UserService extends IService<UserEntity> {
 

@@ -10,8 +10,6 @@ import javax.validation.constraints.Pattern;
 /**
  * Description: 用户注册表
  *
- * @author Rex
- * @date 2023-07-04
  */
 @Data
 public class RegisterForm {

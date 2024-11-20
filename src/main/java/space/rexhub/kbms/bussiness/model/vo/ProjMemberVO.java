@@ -5,8 +5,6 @@ import lombok.Data;
 /**
  * Description: 项目成员
  *
- * @author Rex
- * @date 2024-03-20
  */
 @Data
 public class ProjMemberVO {

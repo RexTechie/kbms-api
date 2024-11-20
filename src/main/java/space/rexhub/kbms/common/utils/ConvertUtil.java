@@ -11,8 +11,6 @@ import java.util.*;
 
 /**
  * 转换工具
- * @author Rex
- * @date 2021-06-01 16:59
  */
 public class ConvertUtil {
   private static final Logger logger = LoggerFactory.getLogger(ConvertUtil.class);

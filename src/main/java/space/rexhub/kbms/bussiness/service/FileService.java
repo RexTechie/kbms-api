@@ -9,8 +9,6 @@ import space.rexhub.kbms.bussiness.model.vo.ProjFileVO;
 /**
  * Description: 文件服务类
  *
- * @author Rex
- * @date 2024-03-22
  */
 public interface FileService extends IService<FileEntity> {
 

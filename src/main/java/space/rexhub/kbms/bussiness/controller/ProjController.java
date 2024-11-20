@@ -17,9 +17,6 @@ import space.rexhub.kbms.common.validation.Update;
 
 /**
  * Description: 项目api
- *
- * @author Rex
- * @date 2024-03-18
  */
 @RestController
 public class ProjController {

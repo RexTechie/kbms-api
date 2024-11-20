@@ -17,8 +17,6 @@ import space.rexhub.kbms.common.model.vo.Result;
 /**
  * Description: 用户Api
  *
- * @author Rex
- * @date 2023-07-03
  */
 @RestController
 public class UserController {

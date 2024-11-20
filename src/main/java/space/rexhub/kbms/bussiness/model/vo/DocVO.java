@@ -7,8 +7,6 @@ import java.util.Date;
 /**
  * Description: 文档分页数据
  *
- * @author Rex
- * @date 2024-04-08
  */
 @Data
 public class DocVO {

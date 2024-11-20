@@ -13,9 +13,6 @@ import java.io.IOException;
 
 /**
  * Description: 自定义认证异常处理器
- *
- * @author Rex
- * @date 2021-11-05 15:28
  */
 @Component
 @Slf4j

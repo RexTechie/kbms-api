@@ -8,8 +8,6 @@ import java.util.Date;
 /**
  * Description: 知识点分页数据
  *
- * @author Rex
- * @date 2023-07-08
  */
 @Data
 public class TagDetailDTO {

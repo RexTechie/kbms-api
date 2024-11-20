@@ -11,7 +11,6 @@ import java.util.List;
 
 /**
  * Description: 知识点dao层
- * @author Rex
  */
 public interface TagMapper extends BaseMapper<TagEntity> {
 

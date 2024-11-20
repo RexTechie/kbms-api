@@ -6,8 +6,6 @@ import space.rexhub.kbms.bussiness.model.entity.EsDocEntity;
 /**
  * Description: ESDoc的dao
  *
- * @author Rex
- * @date 2024-04-20
  */
 public interface EsDocDao extends ElasticsearchRepository<EsDocEntity, Long> {
 

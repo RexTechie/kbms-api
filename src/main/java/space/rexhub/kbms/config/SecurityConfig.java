@@ -20,8 +20,6 @@ import space.rexhub.kbms.security.*;
 
 /**
  * Description: Spring Security配置
- *
- * @author Rex
  */
 @Slf4j
 @Configuration

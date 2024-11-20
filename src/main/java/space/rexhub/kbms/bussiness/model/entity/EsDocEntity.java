@@ -9,8 +9,6 @@ import java.util.Date;
 /**
  * Description: Es中doc实体
  *
- * @author Rex
- * @date 2024-04-20
  */
 @Data
 @Document(indexName = "kbms_doc", createIndex = false)

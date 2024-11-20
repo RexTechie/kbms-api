@@ -14,8 +14,6 @@ import java.util.Date;
 /**
  * 自定义实现类 MyMetaObjectHandler
  * 自动更新create_time、update_time、creator、updater字段
- * @author Rex
- * @date 2021-05-11 9:09
  */
 @Slf4j
 @Component

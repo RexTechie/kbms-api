@@ -11,8 +11,6 @@ import java.util.List;
 /**
  * Description: 知识点
  *
- * @author Rex
- * @date 2023-07-04
  */
 public interface TagService extends IService<TagEntity> {
 

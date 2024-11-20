@@ -9,8 +9,6 @@ import java.util.Collection;
 /**
  * Description: 自定义用户类
  *
- * @author Rex
- * @date 2021-08-12 14:55
  */
 public class AdminUser implements UserDetails {
 

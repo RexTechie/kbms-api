@@ -17,9 +17,6 @@ import java.util.List;
 
 /**
  * Description: 标签api
- *
- * @author Rex
- * @date 2023-07-04
  */
 @RestController
 public class TagController {

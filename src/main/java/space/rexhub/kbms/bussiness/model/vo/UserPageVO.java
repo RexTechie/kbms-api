@@ -8,8 +8,6 @@ import java.util.Date;
 /**
  * Description: 用户分页数据
  *
- * @author Rex
- * @date 2023-07-04
  */
 @Data
 public class UserPageVO {

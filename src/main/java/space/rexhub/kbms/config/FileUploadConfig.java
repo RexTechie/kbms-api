@@ -11,8 +11,6 @@ import javax.servlet.MultipartConfigElement;
 /**
  * Description: 图片上传配置
  *
- * @author Rex
- * @date 2022-04-11 11:14
  */
 @Configuration
 public class FileUploadConfig {

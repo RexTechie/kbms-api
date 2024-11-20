@@ -42,8 +42,6 @@ import java.util.UUID;
 /**
  * Description: 项目文件api
  *
- * @author Rex
- * @date 2024-03-22
  */
 @RestController
 @RequestMapping("/proj")

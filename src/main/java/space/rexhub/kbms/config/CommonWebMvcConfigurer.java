@@ -14,8 +14,6 @@ import java.util.List;
 
 /**
  * Description web配置
- * @author Rex
- * @date 2021-06-01 17:22
  */
 @Configuration
 @EnableWebMvc

@@ -10,9 +10,6 @@ import space.rexhub.kbms.bussiness.model.vo.ProjFileVO;
 
 /**
  * Description: 项目文件dao
- *
- * @author Rex
- * @date 2024-04-12
  */
 public interface FileMapper extends BaseMapper<FileEntity> {
 

@@ -9,8 +9,6 @@ import java.util.Date;
 /**
  * Description: 用户详情
  *
- * @author Rex
- * @date 2021-11-03 13:08
  */
 @Data
 public class UserDetailVO implements Serializable {

@@ -12,7 +12,6 @@ import java.util.Date;
 /**
  * Description: 用户实体类
  *
- * @author Rex
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

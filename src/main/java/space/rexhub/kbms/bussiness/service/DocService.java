@@ -12,8 +12,6 @@ import space.rexhub.kbms.bussiness.model.vo.DocSearchPageVO;
 /**
  * Description: 文档服务类
  *
- * @author Rex
- * @date 2024-03-22
  */
 public interface DocService  extends IService<DocEntity> {
     /**

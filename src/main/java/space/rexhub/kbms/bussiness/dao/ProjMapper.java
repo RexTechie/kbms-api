@@ -11,9 +11,6 @@ import space.rexhub.kbms.bussiness.model.vo.ProjVO;
 
 /**
  * Description: 项目Mapper
- *
- * @author Rex
- * @date 2024-03-18
  */
 public interface ProjMapper extends BaseMapper<ProjEntity> {
     /**

@@ -13,9 +13,6 @@ import java.util.List;
 
 /**
  * Description: 项目文档mapper
- *
- * @author Rex
- * @date 2024-03-22
  */
 public interface DocMapper extends BaseMapper<DocEntity> {
     /**

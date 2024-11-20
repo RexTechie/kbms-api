@@ -15,8 +15,6 @@ import java.io.Serializable;
 
 /**
  * 分页
- * @author Rex
- * @date 2021-06-05 1:00
  */
 @Data
 public class Pagination implements Serializable {

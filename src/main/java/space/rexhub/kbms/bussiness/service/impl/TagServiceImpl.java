@@ -21,8 +21,6 @@ import java.util.stream.Collectors;
 /**
  * Description: 标签服务实现类
  *
- * @author Rex
- * @date 2023-07-04
  */
 @Service
 public class TagServiceImpl extends ServiceImpl<TagMapper, TagEntity> implements TagService {

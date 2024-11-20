@@ -11,8 +11,6 @@ import javax.validation.constraints.Null;
 /**
  * Description: 用户注册表
  *
- * @author Rex
- * @date 2023-07-04
  */
 @Data
 public class ProjForm {

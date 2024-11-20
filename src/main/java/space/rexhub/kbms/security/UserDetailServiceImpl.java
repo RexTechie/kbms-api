@@ -13,8 +13,6 @@ import java.util.List;
 
 /**
  * Description: 用户信息管理服务类
- *
- * @author Rex
  */
 @Service
 public class UserDetailServiceImpl implements UserDetailsService {

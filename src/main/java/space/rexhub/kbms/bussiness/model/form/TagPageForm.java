@@ -8,8 +8,6 @@ import space.rexhub.kbms.common.model.dto.Pagination;
 /**
  * Description: 知识点表单
  *
- * @author Rex
- * @date 2023-07-04
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

@@ -7,9 +7,6 @@ import java.util.Date;
 
 /**
  * Description: 文件分页数据
- *
- * @author Rex
- * @date 2023-07-04
  */
 @Data
 public class ProjFileVO {

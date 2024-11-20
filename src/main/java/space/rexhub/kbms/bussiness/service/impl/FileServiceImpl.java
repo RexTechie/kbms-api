@@ -21,8 +21,6 @@ import space.rexhub.kbms.common.exception.CommonException;
 /**
  * Description: 文件服务实现类
  *
- * @author Rex
- * @date 2024-03-22
  */
 @Service
 public class FileServiceImpl extends ServiceImpl<FileMapper, FileEntity> implements FileService {
