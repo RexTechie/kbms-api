@@ -17,6 +17,6 @@ public class SampleJob implements Job {
     public void execute(JobExecutionContext context) throws JobExecutionException {
         SimpleDateFormat dateFormat = new SimpleDateFormat();
         dateFormat.applyPattern("yyyy-MM-dd HH:mm:ss");
-        log.info("执行定时任务, 当前时间：" + dateFormat.format(new Date()));
+//        log.info("执行定时任务, 当前时间：" + dateFormat.format(new Date()));
     }
 }

@@ -54,6 +54,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
       "/login",
       "/logout",
       "/register",
+      "/druid/**",
      "/proj/file/download/**",
       "/proj/file/preview/**"
   };
